@@ -33,4 +33,6 @@
 @media all and (max-width: 640px) {
     #mainvideo {width: 100%;}
     #tiramisu {border: none;}
+    #mainvideotitle {left: 0; bottom: 2%;}
+    #mainvideomenu {width: 90%; height: 60%;top: 2%; left: 0; right: 0; margin: 0 auto;}
 }
