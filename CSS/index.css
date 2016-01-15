@@ -22,11 +22,13 @@
 }
 
 #mainvideomenu {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 80px;
+    padding: 20px;
     position: absolute;
     top: 50px;
     right: 0px;
+    font-family: Italiana;
     background: rgba(20,20,20,0.4);
 }
 
@@ -34,5 +36,5 @@
     #mainvideo {width: 100%;}
     #tiramisu {border: none;}
     #mainvideotitle {left: 0; bottom: 2%;}
-    #mainvideomenu {width: 90%; height: 60%;top: 2%; left: 0; right: 0; margin: 0 auto;}
+    #mainvideomenu {width: 80%; height: 40%; top: 2%; left: 0; right: 0; margin: 0 auto;}
 }

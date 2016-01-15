@@ -118,6 +118,7 @@ main {
     width: 100px;
     height: 20px;
     padding: 4px 0 0 0;
+    margin: 0 auto;
     font-family: Roboto;
     font-size: 12px;
     text-align: center;
