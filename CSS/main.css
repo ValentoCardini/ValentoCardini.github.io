@@ -29,7 +29,7 @@ html {
 }
 
 body {
-    width: 80%;
+    width: 90%;
     height: 94%;
     margin: 2% auto 0 auto;
     color: rgb(220,220,220);
@@ -38,16 +38,13 @@ body {
 #mainheader {
     height: 70px;
     width: 100%;
-        position: relative; /**/
-    /*outline: 1px solid pink;*/
+    outline: 1px solid white;
 }
 
 main {
     width: 100%;
-    height: calc(100% - 190px);
     display: flex;
     flex-flow: row;
-    /*outline: 1px solid white;*/
 }
 
 #mainfooter {
