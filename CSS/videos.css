@@ -1,0 +1,20 @@
+#videoscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+/*    outline: 1px solid white;*/
+}
+
+.videoframe {
+    width: 280px;
+    height: 194px;
+    margin: 10px;
+    background: linear-gradient(0deg, rgb(20,20,20), rgb(50,50,50));
+}
+
+
+.videoframe img {
+    width: 260px;
+    height: 174px;
+    margin: 10px 0 0 10px;
+}
