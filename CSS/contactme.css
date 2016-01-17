@@ -116,17 +116,30 @@ main {
     color: rgb(80,0,0);
 }
 
-#socialiconscontainer {
-    width: 240px;
+#emailscontainer {
+    width: 230px;
     height: 50px;
-    margin: 50px auto 0 auto;
-    outline: 1px solid pink;
+    margin: 40px auto 0 auto;
+    /*outline: 1px solid red;*/
+}
+
+#socialiconscontainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto 0 auto;
+    /*outline: 1px solid pink;*/
 }
 
 .socialicons {
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
     padding: 10px;
+    display: inline-block;
     border-radius: 5px;
-    border: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(50,50,50);
+    border: 1px solid rgb(50,50,50);
 }
