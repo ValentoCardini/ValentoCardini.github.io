@@ -6,15 +6,20 @@
 }
 
 .videoframe {
-    width: 280px;
-    height: 194px;
+    width: 210px;
+    height: 147px;
     margin: 10px;
     background: linear-gradient(0deg, rgb(20,20,20), rgb(50,50,50));
 }
 
 
 .videoframe img {
-    width: 260px;
-    height: 174px;
+    width: 190px;
+    height: 127px;
     margin: 10px 0 0 10px;
+}
+
+@media all and (max-width: 460px) {
+    .videoframe {width: 360px; height: 247px; margin: 0;}
+    .videoframe img {width: 340px; height: 227px;}
 }

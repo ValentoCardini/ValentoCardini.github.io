@@ -1,0 +1,132 @@
+main {
+    justify-content: center;
+}
+
+#papercontainer {
+    width: 60%;
+    /*outline: 1px solid pink;*/
+}
+
+#feathercontainer {
+    width: 40%;
+    /*outline: 1px solid red;*/
+}
+
+#paper {
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    color: rgb(0,0,0);
+    background-color: oldlace;
+    background: linear-gradient(90deg, rgb(218,210,200), rgb(242,233,220) 5%, oldlace 15%);
+}
+
+#paper header {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.material-icons {
+    padding: 6px 0 0 0;
+    font-size: 18px;
+    color: rgb(80,80,80);
+}
+
+#paper h1 {
+    font-family: Italiana;
+    font-size: 30px;
+    text-align: center;
+    color: rgb(60,60,60);
+}
+
+#paper h2 {
+    font-family: Tangerine;
+    font-size: 30px;
+    margin: 20px 0 0 180px;
+    color: rgb(160,0,0);
+}
+
+#paper p {
+    font-family: Italiana;
+}
+
+#papercurl {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 300px;
+    background-color: rgb(30,30,30);
+    background: linear-gradient(45deg, rgb(20,20,20), oldlace 45%, #ddd 50%, rgb(30,30,30) 50%);
+    box-shadow: -1px 2px 7px rgb(20,20,20);
+    transition: all 0.5s ease;
+}
+
+#papercurl:hover {
+    width: 80px;
+    height: 80px;
+    left: 260px;
+}
+
+#paperfold {
+    width: 380px;
+    margin: 40px 0 0 -40px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#seal {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    border-radius: 50%;
+    background: rgb(120,0,0);
+    box-shadow: 0 -1px 2px rgba(0,0,0,0.8)
+}
+
+#seal p {
+    font-family: Tangerine;
+    font-size: 40px;
+}
+
+#seal .material-icons {
+    padding: 0 0 0 2px;
+    font-size: 48px;
+    color: rgb(140,0,0);
+}
+
+#vini {
+    position: absolute;
+    bottom: 0px;
+    left: 4px;
+    color: rgb(80,0,0);
+}
+
+#cini {
+    position: absolute;
+    bottom: -8px;
+    left: 20px;
+    color: rgb(80,0,0);
+}
+
+#socialiconscontainer {
+    width: 240px;
+    height: 50px;
+    margin: 50px auto 0 auto;
+    outline: 1px solid pink;
+}
+
+.socialicons {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}

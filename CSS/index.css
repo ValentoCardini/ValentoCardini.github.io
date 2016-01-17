@@ -6,7 +6,7 @@
 #tiramisu {
     width: 100%;
     border: 40px solid rgb(0,0,0);
-    /*position: relative;*/
+    box-shadow: 0px 1px 0px rgb(160,0,0);
 }
 
 #mainvideotitle {
