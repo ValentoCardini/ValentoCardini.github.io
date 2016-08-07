@@ -4,14 +4,9 @@ header, footer, nav, root {
     display: block;
 }
 
-html, body, main, header, footer, div, aside, h1, h2, h3, p, img, ul, li {
+html, body, main, header, footer, nav, div, aside, h1, h2, h3, p, img, ul, li {
     margin: 0;
     padding: 0;
-}
-
-html {
-    width: 100%;
-    /*height: 100%;*/
 }
 
 h1, h2, h3, p {
@@ -24,7 +19,8 @@ h1, h2, h3, p {
 /* main styles */
 
 html {
-    background: linear-gradient(-45deg, rgb(100,100,100), rgb(28,28,28) 20%); /*-145*/
+    width: 100%;
+    background: rgb(0,0,0);
 }
 
 body {
@@ -33,10 +29,15 @@ body {
     color: rgb(220,220,220);
 }
 
+
+
 #mainheader {
-    height: 70px;
     width: 100%;
+    height: 280px;
+    margin: 20px 0 0 0;
+    background-image: url("http://valentocardini.com/IMAGES/fleetingpedals.png");
 }
+
 
 main {
     width: 100%;
