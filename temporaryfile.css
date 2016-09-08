@@ -24,92 +24,32 @@ html {
 }
 
 body {
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
     color: rgb(220,220,220);
-    /*background: pink;*/
+}
+
+#maintitlebackground {
+    width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
 }
 
 #mainheader {
     width: 100%;
-    height: 100px;
-    margin: 20px auto 0 auto;
-    display: flex;
-    /*background: orange;*/
+    height: 180px;
+    position: absolute;
+    top: 20px;
 }
 
-#maintitle {
-    width: 30%;
-    display: flex;
-    flex-flow: column;
-    /*background: teal;*/
-}
-
-#maintitle h1 {
-    margin: 0;
-    font-family: Tangerine;
-    font-size: 80px;
-    line-height: 0.8;
-    color: rgb(160,0,0);
-}
-
-#maintitle p {
-    margin: -10px 0 0 0;
-    font-family: Italiana;
-    font-size: 14px;
-    color: rgb(240,240,240);
-}
-
-/*this will be therose*/
-#maintitlebackground {
-    width: 72%;
-    margin: 0 auto;
-}
-
-#maintitlebackground img {
-    width: 100%;
-}
 
 main {
     width: 100%;
     display: flex;
-    flex-flow: column;
-}
-
-#pagetitle {
-    width: 100%;
-    height: 80px;
-    position: absolute;
-    top: calc(50% - 80px);
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-family: Italiana;
-    font-size: 80px;
-    color: rgba(250,0,0,0.2);
-}
-
-#homesections {
-    margin: 100px 0 0 0;
-    display: flex;
     flex-flow: row;
-    justify-content: space-around;
-}
-
-.homesection {
-    width: 420px;
-    padding: 10px;
-    background: rgba(50,50,50,0.2);
-}
-
-.homesection h1 {
-    padding: 0 0 4px 0;
-    border-bottom: 1px solid red;
-}
-
-.homesection p {
-    padding: 4px 0 0 0;
-    color: rgb(200,200,200);
 }
 
 #mainfooter {
@@ -118,7 +58,20 @@ main {
     margin: 20px 0 0 0;
 }
 
+#mainheader h1 {
+    height: 60px;
+    font-family: Tangerine;
+    font-size: 60px;
+    color: rgb(160,0,0);
+}
 
+#mainheader p {
+    height: 22px;
+    margin: 16px 0 0 96px;
+    font-family: Italiana;
+    font-size: 14px;
+    color: rgb(240,240,240);
+}
 
 #mainfooter p {
     width: 80%;
@@ -130,24 +83,34 @@ main {
 /* navigation styles */
 
 #mainnav {
-    width: 70%;
-    height: 50px;
+    width: 100%;
+    height: 30px;
+    margin: 20px 0;
     display: flex;
     flex-flow: row;
-    background-image: url("http://valentocardini.com/IMAGES/fleetingpedals.png");
-    background-size: contain;
-    /*background: green;*/
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgb(0,0,0) 70%, rgb(180,180,180));
 }
 
 #mainnav a {
     width: 25%;
-    padding: 12px 0 0 0;
+    padding: 3px 0 0 0;
     font-family: Poiret One;
     font-size: 18px;
     text-align: center;
     text-decoration: none;
     color: rgb(240,240,240);
     transition: color 0.2s;
+}
+
+#mainnav a:nth-child(n) {
+    border: 1px solid rgb(20,20,20);
+    border-top: 0px solid rgb(20,20,20);
+    border-bottom: 0px solid rgb(20,20,20)
+}
+
+#mainnav a:first-child {
+    border-left: 0px solid rgb(20,20,20);
 }
 
 #mainnav a:hover {
@@ -177,7 +140,7 @@ main {
     color: rgb(0,100,0);
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 640px) {
     body {width: 100%;}
     #mainnav {width: 100%; height: 200px; flex-flow: column; background: none;}
     #mainnav a {width: 100%; height: 48px; padding: 10px 0 0 0; background: rgb(10,10,10);}
