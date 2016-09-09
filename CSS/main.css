@@ -7,6 +7,7 @@ header, footer, nav, root {
 html, body, main, header, footer, nav, div, aside, h1, h2, h3, p, img, ul, li {
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 h1, h2, h3, p {
@@ -19,7 +20,6 @@ h1, h2, h3, p {
 /* main styles */
 
 html {
-    width: 100%;
     background: rgb(0,0,0);
 }
 
@@ -27,22 +27,21 @@ body {
     width: 95%;
     margin: 0 auto;
     color: rgb(220,220,220);
-    /*background: pink;*/
 }
 
 #mainheader {
     width: 100%;
     height: 100px;
-    margin: 20px auto 0 auto;
+    padding: 20px 0 0 0;
+    margin: 40px auto 0 auto;
     display: flex;
-    /*background: orange;*/
+    flex-flow: column;
 }
 
 #maintitle {
-    width: 30%;
     display: flex;
     flex-flow: column;
-    /*background: teal;*/
+    text-align: center;
 }
 
 #maintitle h1 {
@@ -71,72 +70,20 @@ body {
 }
 
 main {
-    width: 100%;
     display: flex;
     flex-flow: column;
-}
-
-#pagetitle {
-    width: 100%;
-    height: 80px;
-    position: absolute;
-    top: calc(50% - 80px);
-    left: 0;
-    right: 0;
-    text-align: center;
-    font-family: Italiana;
-    font-size: 80px;
-    color: rgba(250,0,0,0.2);
-}
-
-#homesections {
-    margin: 100px 0 0 0;
-    display: flex;
-    flex-flow: row;
-    justify-content: space-around;
-}
-
-.homesection {
-    width: 420px;
-    padding: 10px;
-    background: rgba(50,50,50,0.2);
-}
-
-.homesection h1 {
-    padding: 0 0 4px 0;
-    border-bottom: 1px solid red;
-}
-
-.homesection p {
-    padding: 4px 0 0 0;
-    color: rgb(200,200,200);
-}
-
-#mainfooter {
-    width: 100%;
-    height: 60px;
-    margin: 20px 0 0 0;
-}
-
-
-
-#mainfooter p {
-    width: 80%;
-    margin: 0 auto;
-    font-family: Rotobo;
-    font-size: 14px;
 }
 
 /* navigation styles */
 
 #mainnav {
-    width: 70%;
-    height: 50px;
+    height: 40px;
+    padding: 0 0 10px 0;
     display: flex;
     flex-flow: row;
-    background-image: url("http://valentocardini.com/IMAGES/fleetingpedals.png");
-    background-size: contain;
-    /*background: green;*/
+    /*background-image: url("http://valentocardini.com/IMAGES/fleetingpedals.png");
+    background-size: contain;*/
+    /*background: rgba(40,40,40,0.2);*/
 }
 
 #mainnav a {
@@ -152,6 +99,32 @@ main {
 
 #mainnav a:hover {
     color: rgb(160,0,0);
+}
+
+#pagetitle {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: calc(50% - 80px);
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: Italiana;
+    font-size: 80px;
+    color: rgba(250,0,0,0.2);
+}
+
+#mainfooter {
+    width: 100%;
+    height: 60px;
+    margin: 20px 0 0 0;
+}
+
+#mainfooter p {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Rotobo;
+    font-size: 14px;
 }
 
 /* Button Styles */
