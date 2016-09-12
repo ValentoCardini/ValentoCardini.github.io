@@ -117,29 +117,35 @@ main {
 footer {
     width: 100%;
     height: 40px;
-    margin: 20px 0 0 0;
+    margin: 40px 0 0 0;
     padding: 20px 0 0 0;
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;
+    flex-flow: column;
     background: rgba(20,20,20,0.2);
 }
 
 footer p {
-    width: 140px;
+    width: 100%;
     margin: 0 auto;
-    font-family: Rotobo;
+    text-align: center;
+    font-family: Poiret One;
     font-size: 14px;
+}
+
+footer #footernav {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
 }
 
 /* Button Styles */
 
 .buttons {
-    width: 100px;
+    width: 70px;
     height: 20px;
     padding: 4px 0 0 0;
-    margin: 0 auto;
-    font-family: Roboto;
+    margin: 10px;
+    font-family: Poiret One;
     font-size: 12px;
     text-align: center;
     border-radius: 5px;
@@ -151,9 +157,13 @@ footer p {
     color: rgb(200,200,200);
 }
 
-.buttons:hover a {
-    color: rgb(0,100,0);
-}
+/*.buttons:hover a {
+    color: rgb(100,0,0);
+}*/
+
+.verdi a {color: rgb(0,140,0);}
+.bianchi a {color: rgb(250,250,250);}
+.rosso a {color: rgb(160,0,0);}
 
 @media all and (max-width: 420px) {
     body {width: 100%;}
