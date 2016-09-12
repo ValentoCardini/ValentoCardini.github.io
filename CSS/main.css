@@ -114,14 +114,19 @@ main {
     color: rgba(250,0,0,0.2);
 }
 
-#mainfooter {
+footer {
     width: 100%;
-    height: 60px;
+    height: 40px;
     margin: 20px 0 0 0;
+    padding: 20px 0 0 0;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    background: rgba(20,20,20,0.2);
 }
 
-#mainfooter p {
-    width: 80%;
+footer p {
+    width: 140px;
     margin: 0 auto;
     font-family: Rotobo;
     font-size: 14px;
@@ -150,7 +155,7 @@ main {
     color: rgb(0,100,0);
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 420px) {
     body {width: 100%;}
     #mainnav {width: 100%; height: 200px; flex-flow: column; background: none;}
     #mainnav a {width: 100%; height: 48px; padding: 10px 0 0 0; background: rgb(10,10,10);}
