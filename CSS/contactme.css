@@ -1,10 +1,26 @@
-main {
-    justify-content: center;
+
+#message {
+    margin: 40px auto 0 auto;
+    display: flex;
+    flex-flow: row;
+    
 }
 
+#message div {
+    width: 20px;
+    font-size: 40px;
+}
+
+#message p {
+    max-width: 600px;
+    margin: 0 10px;
+    font-family: Tangerine;
+    font-size: 40px;
+}
+
+/*
 #papercontainer {
     width: 60%;
-    /*outline: 1px solid pink;*/
 }
 
 #feathercontainer {
@@ -12,7 +28,6 @@ main {
     max-width: 250px;
     height: 400px;
     padding: 20px 0 0 0;
-    /*outline: 1px solid red;*/
 }
 
 #paper {
@@ -123,7 +138,6 @@ main {
     width: 230px;
     height: 50px;
     margin: 40px auto 0 auto;
-    /*outline: 1px solid red;*/
 }
 
 #socialiconscontainer {
@@ -132,7 +146,6 @@ main {
     display: flex;
     justify-content: space-around;
     margin: 20px auto 0 auto;
-    /*outline: 1px solid pink;*/
 }
 
 .socialicons {
@@ -146,3 +159,4 @@ main {
     color: rgb(50,50,50);
     border: 1px solid rgb(50,50,50);
 }
+*/

@@ -33,7 +33,7 @@ body {
     width: 100%;
     height: 100px;
     padding: 20px 0 0 0;
-    margin: 40px auto 0 auto;
+    margin: 40px auto 20px auto;
     display: flex;
     flex-flow: column;
 }
@@ -105,23 +105,24 @@ main {
     width: 100%;
     height: 80px;
     position: absolute;
-    top: calc(50% - 80px);
+    top: calc(50% - 50px);
     left: 0;
     right: 0;
     text-align: center;
     font-family: Italiana;
     font-size: 80px;
     color: rgba(250,0,0,0.2);
+    z-index: -1;
 }
 
 footer {
     width: 100%;
     height: 40px;
     margin: 40px 0 0 0;
-    padding: 20px 0 0 0;
+    padding: 20px 0;
     display: flex;
     flex-flow: column;
-    background: rgba(20,20,20,0.2);
+    /*background: rgba(20,20,20,0.2);*/
 }
 
 footer p {

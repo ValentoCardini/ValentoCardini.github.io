@@ -19,10 +19,15 @@ main {
     border-bottom: 2px solid rgb(150,0,0);
 }
 
+.recipelist p {
+    margin: 10px 0;
+    color: rgb(150,150,150);
+}
+
 .recipelist img {
     width: 110px;
     height: 110px;
-    margin: 15px;
+    margin: 0 15px 10px 15px;
 }
 
 @media all and (max-width: 420px) {
