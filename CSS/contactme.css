@@ -13,35 +13,45 @@
 
 #message p {
     max-width: 600px;
-    margin: 0 10px;
+    margin: 0 10px 40px 0;
     font-family: Tangerine;
     font-size: 40px;
 }
 
-#socialmediacontainer {
-    width: 100%;
-    margin: 10px auto 0 auto;
+.socialmediacontainer {
+    width: 400px;
+    height: 100px;
+    padding: 20px 10px;;
+    margin: 20px auto;
     display: flex;
-    flex-flow: row;
-    justify-content: center;
-    font-family: Poiret One;
+    flex-flow: column;
+    background: rgba(20,20,20,0.4);
 }
 
-#socialmediatitle {
+.socialmediatitle {
     width: 360px;
-    margin: 60px auto 10px auto;
+    margin: 0 auto;
     font-family: Poiret One;
 }
 
-#socialmediatitle h1 {
+.socialmediatitle h1 {
     padding: 0 0 4px 0;
     text-align: center;
+    font-size: 24px;
     border-bottom: 1px solid rgb(150,0,0);
 }
 
-#socialmediatitle p {
+.socialmediatitle p {
+    margin: 2px 0 0 0;
     text-align: center;
     color: rgba(200,200,200,0.8);
+}
+
+.socialmediaitemscontainer {
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-flow: row;
+    font-family: Poiret One;
 }
 
 .socialmedia {
@@ -55,7 +65,6 @@
 .socialmedia h2 {
     text-align: center;
     font-size: 14px;
-    /*border-bottom: 1px solid rgb(150,0,0);*/
 }
 
 .socialmedia:hover h2 {
