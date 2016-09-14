@@ -18,6 +18,50 @@
     font-size: 40px;
 }
 
+#socialmediacontainer {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    font-family: Poiret One;
+}
+
+#socialmediatitle {
+    width: 360px;
+    margin: 60px auto 10px auto;
+    font-family: Poiret One;
+}
+
+#socialmediatitle h1 {
+    padding: 0 0 4px 0;
+    text-align: center;
+    border-bottom: 1px solid rgb(150,0,0);
+}
+
+#socialmediatitle p {
+    text-align: center;
+    color: rgba(200,200,200,0.8);
+}
+
+.socialmedia {
+    width: 60px;
+    height: 20px;
+    padding: 5px;
+    margin: 0 10px;
+    background: rgba(40,40,40,0.2);
+}
+
+.socialmedia h2 {
+    text-align: center;
+    font-size: 14px;
+    /*border-bottom: 1px solid rgb(150,0,0);*/
+}
+
+.socialmedia:hover h2 {
+    color: rgb(150,0,0);
+}
+
 /*
 #papercontainer {
     width: 60%;
