@@ -52,7 +52,13 @@
     display: flex;
     flex-flow: row;
     justify-content: center;
+    
     font-family: Poiret One;
+}
+
+.socialmediaitemscontainer a {
+    color: rgb(220,220,220);
+    text-decoration: none;
 }
 
 .socialmedia {
@@ -64,6 +70,7 @@
 }
 
 .socialmedia h2 {
+    margin: 0;
     text-align: center;
     font-size: 14px;
 }
