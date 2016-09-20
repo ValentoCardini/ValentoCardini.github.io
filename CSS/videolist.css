@@ -27,12 +27,15 @@ main {
 }
 
 #videolistcontainer {
+    display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .videolist {
-    width: 420px;
-    /*height: 400px;*/
+    width: calc(100% - 30px);
+    max-width: 400px;
     margin: 10px;
     padding: 10px;
     background: rgba(20,20,20,0.4);
@@ -46,6 +49,7 @@ main {
 
 .videolist p {
     margin: 10px 0;
+    text-align: center;
     color: rgb(150,150,150);
 }
 
@@ -54,13 +58,19 @@ hover:.videolist img {
     background: rgba(0,0,0,0.8);
 }
 
+/* STYLES FOR THE EXTRA PICTURES */
 
+#somepictures {
+    
+    text-align: center;
+    font-family: Italiana;
+    color: rgb(150,150,150);
+}
 
 #videoscontainer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-/*    outline: 1px solid white;*/
 }
 
 .videoframe {
@@ -69,7 +79,6 @@ hover:.videolist img {
     margin: 10px;
     background: linear-gradient(0deg, rgb(20,20,20), rgb(50,50,50));
 }
-
 
 .videoframe img {
     width: 190px;

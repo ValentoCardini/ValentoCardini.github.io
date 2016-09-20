@@ -12,6 +12,7 @@
 }
 
 #message p {
+    width: calc(100% - 20px);
     max-width: 600px;
     margin: 0 10px 40px 0;
     font-family: Tangerine;
@@ -19,9 +20,10 @@
 }
 
 .socialmediacontainer {
-    width: 400px;
+    width: calc(100% - 20px);
+    max-width: 400px;
     height: 100px;
-    padding: 20px 10px;;
+    padding: 20px 10px;
     margin: 20px auto;
     display: flex;
     flex-flow: column;
@@ -29,7 +31,8 @@
 }
 
 .socialmediatitle {
-    width: 360px;
+    width: 100%;
+    max-width: 360px;
     margin: 0 auto;
     font-family: Poiret One;
 }
@@ -51,8 +54,8 @@
     margin: 10px auto 0 auto;
     display: flex;
     flex-flow: row;
+    flex-wrap: wrap;
     justify-content: center;
-    
     font-family: Poiret One;
 }
 
@@ -65,7 +68,7 @@
     width: 60px;
     height: 20px;
     padding: 5px;
-    margin: 0 10px;
+    margin: 5px 10px;
     background: rgba(40,40,40,0.2);
 }
 
